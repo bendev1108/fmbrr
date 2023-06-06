@@ -1,34 +1,47 @@
-p{
-    font-size: 20px;
+.content-wrapper {
+  background-color: white;
+  margin-bottom: 1rem;
 }
 
-td{
-    width: 350px;
-}
-.example-full-width{
-    width: 350px;
-    margin-left: 2rem;
+p {
+  font-size: 20px;
+  margin-bottom: 1rem;
 }
 
-#textarea{
-    width: 1110px;
-    margin-left: 2rem;
-}
-div.mt-3{
-    background-color: blanchedalmond;
-    width: 1200px;
-    margin-left: 17rem;
-    
+// .example-full {
+//   width: 300px;
+//   margin-left: 5rem;
+// }
+
+.example-full-width {
+  width: 400px;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
-.input-group{
-    margin-bottom: 2rem;
-    margin-left: 2rem;
-    width:min-content
+#textarea {
+  width: 400px;
+  margin-left: 1rem;
 }
 
-#inputGroupFile{
-    width: fit-content;
-    height: fit-content;
+.input-group {
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  width: 300px;
+
 }
 
+#inputGroupFile {
+  width: fit-content;
+  height: fit-content;
+}
+
+button {
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  width: fit-content;
+}
+
+// .example-form {
+//   background-color: aquamarine;
+// }

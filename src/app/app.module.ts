@@ -12,6 +12,10 @@ import { FooterComponent } from './nav/footer/footer.component';
 import { SidebarComponent } from './nav/sidebar/sidebar.component';
 import { SettingComponent } from './nav/setting/setting.component';
 import { PlotActivityNextComponent } from './plot-activity/plot-activity-next/plot-activity-next.component';
+import { ActivitySummaryComponent } from './activity-summary/activity-summary.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { ActivityComponent } from './activity/activity.component';
+import { ActivitySummaryNextComponent } from './activity-summary/activity-summary-next/activity-summary-next.component';
 
 @NgModule({
   declarations: [
@@ -23,6 +27,10 @@ import { PlotActivityNextComponent } from './plot-activity/plot-activity-next/pl
     SidebarComponent,
     SettingComponent,
     PlotActivityNextComponent,
+    ActivitySummaryComponent,
+    DashboardComponent,
+    ActivityComponent,
+    ActivitySummaryNextComponent,
   ],
   imports: [
     BrowserModule,
