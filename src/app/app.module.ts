@@ -16,6 +16,11 @@ import { ActivitySummaryComponent } from './activity-summary/activity-summary.co
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ActivityComponent } from './activity/activity.component';
 import { ActivitySummaryNextComponent } from './activity-summary/activity-summary-next/activity-summary-next.component';
+import { InformationSCFComponent } from './information-scf/information-scf.component';
+import { SugarcaneCueGroupsComponent } from './sugarcane-cue-groups/sugarcane-cue-groups.component';
+import { MapComponent } from './map/map.component';
+import { PlotComponent } from './plot/plot.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +36,11 @@ import { ActivitySummaryNextComponent } from './activity-summary/activity-summar
     DashboardComponent,
     ActivityComponent,
     ActivitySummaryNextComponent,
+    InformationSCFComponent,
+    SugarcaneCueGroupsComponent,
+    MapComponent,
+    PlotComponent,
+    LoginComponent,
   ],
   imports: [
     BrowserModule,
