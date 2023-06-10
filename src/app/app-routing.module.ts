@@ -10,18 +10,24 @@ import { SugarcaneCueGroupsComponent } from './sugarcane-cue-groups/sugarcane-cu
 import { MapComponent } from './map/map.component';
 import { PlotComponent } from './plot/plot.component';
 import { LoginComponent } from './login/login.component';
+import { PlotDetailComponent } from './plot/plot-detail/plot-detail.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { ScqDetailsComponent } from './sugarcane-cue-groups/scq-details/scq-details.component';
 
 const routes: Routes = [
-  {path: 'หน้าแรก', component: DashboardComponent},
+  {path: '', component: DashboardComponent},
   {path: 'กิจกรรมรายแปลง', component: PlotComponent},
+  {path: 'รายละเอียดกิจกรรม', component: PlotDetailComponent},
   {path: 'แบบฟอร์มบันทึก', component: PlotActivityComponent},
   {path: 'แบบฟอร์มกิจกรรมรายแปลง', component: PlotActivityNextComponent},
   {path: 'สรุปรายชาวไร่', component: ActivitySummaryComponent},
   {path: 'สรุปรายแปลง', component: ActivityComponent},
   {path: 'ข้อมูลแปลงอ้อย', component: InformationSCFComponent},
   {path: 'จัดกลุ่มคิวอ้อย', component: SugarcaneCueGroupsComponent},
+  {path: 'รายละเอียดคิวอ้อย', component: ScqDetailsComponent},
   {path: 'แผนที่แปลงอ้อย', component: MapComponent},
-  {path: 'login', component: LoginComponent}
+  {path: 'login', component: LoginComponent},
+  { path: '**', component: PagenotfoundComponent}
 ];
 
 @NgModule({

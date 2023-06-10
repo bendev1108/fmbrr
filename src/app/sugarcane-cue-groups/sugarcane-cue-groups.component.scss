@@ -1,3 +1,10 @@
+* {
+  font-family: 'Bai Jamjuree', sans-serif;
+  font-family: 'Chakra Petch', sans-serif;
+  font-family: 'K2D', sans-serif;
+  font-family: 'Mitr', sans-serif;
+}
+
 .d-flex{
   margin-left: 1rem;
   margin-right: 2rem;
@@ -22,4 +29,19 @@ button{
   margin-left: 1rem;
   margin-right: 1rem;
 }
+
+table {
+  width: 100%;
+}
+
+.mat-mdc-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td, th {
+  width: 25%;
+
+}
+
 

@@ -21,6 +21,9 @@ import { SugarcaneCueGroupsComponent } from './sugarcane-cue-groups/sugarcane-cu
 import { MapComponent } from './map/map.component';
 import { PlotComponent } from './plot/plot.component';
 import { LoginComponent } from './login/login.component';
+import { PlotDetailComponent } from './plot/plot-detail/plot-detail.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { ScqDetailsComponent } from './sugarcane-cue-groups/scq-details/scq-details.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +44,9 @@ import { LoginComponent } from './login/login.component';
     MapComponent,
     PlotComponent,
     LoginComponent,
+    PlotDetailComponent,
+    PagenotfoundComponent,
+    ScqDetailsComponent,
   ],
   imports: [
     BrowserModule,
