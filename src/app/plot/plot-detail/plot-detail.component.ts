@@ -1,12 +1,17 @@
+<<<<<<< HEAD
 import { BrdsqlService } from './../../service/brdsql.service';
 import { Component, AfterViewInit, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+=======
+import { Component, AfterViewInit } from '@angular/core';
+>>>>>>> 3fbea51366215eb16cd71b821a270da8cd7c6be3
 
 @Component({
   selector: 'app-plot-detail',
   templateUrl: './plot-detail.component.html',
   styleUrls: ['./plot-detail.component.scss']
 })
+<<<<<<< HEAD
 export class PlotDetailComponent implements AfterViewInit, OnInit{
   fmname: any;
 
@@ -36,6 +41,9 @@ export class PlotDetailComponent implements AfterViewInit, OnInit{
     })
 
   }
+=======
+export class PlotDetailComponent implements AfterViewInit{
+>>>>>>> 3fbea51366215eb16cd71b821a270da8cd7c6be3
 
   ngAfterViewInit(): void {
     const script = document.createElement('script');

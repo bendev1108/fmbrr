@@ -9,6 +9,7 @@ import { LoginComponent } from './login/login.component';
 import { PlotDetailComponent } from './plot/plot-detail/plot-detail.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { ScqDetailsComponent } from './sugarcane-cue-groups/scq-details/scq-details.component';
+<<<<<<< HEAD
 import { MapDetailComponent } from './map/map-detail/map-detail.component';
 import { ProductionWfoComponent } from './information-scf/production-wfo/production-wfo.component';
 import { PromotionMoneyComponent } from './information-scf/promotion-money/promotion-money.component';
@@ -33,6 +34,23 @@ const routes: Routes = [
   { path: 'promotion money form', component: PromotionMoneyFormComponent },
   { path: 'promotion money detail', component: PromotionMoneyDetailComponent },
   { path: '**', component: PagenotfoundComponent }
+=======
+
+const routes: Routes = [
+  {path: '', component: DashboardComponent},
+  {path: 'กิจกรรมรายแปลง', component: PlotComponent},
+  {path: 'รายละเอียดกิจกรรม', component: PlotDetailComponent},
+  {path: 'แบบฟอร์มบันทึก', component: PlotActivityComponent},
+  {path: 'แบบฟอร์มกิจกรรมรายแปลง', component: PlotActivityNextComponent},
+  {path: 'สรุปรายชาวไร่', component: ActivitySummaryComponent},
+  {path: 'สรุปรายแปลง', component: ActivityComponent},
+  {path: 'ข้อมูลแปลงอ้อย', component: InformationSCFComponent},
+  {path: 'จัดกลุ่มคิวอ้อย', component: SugarcaneCueGroupsComponent},
+  {path: 'รายละเอียดคิวอ้อย', component: ScqDetailsComponent},
+  {path: 'แผนที่แปลงอ้อย', component: MapComponent},
+  {path: 'login', component: LoginComponent},
+  { path: '**', component: PagenotfoundComponent}
+>>>>>>> 3fbea51366215eb16cd71b821a270da8cd7c6be3
 ];
 
 @NgModule({

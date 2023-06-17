@@ -6,6 +6,7 @@ $my-accent: mat.define-palette(mat.$purple-palette, A400);
 $my-warn: mat.define-palette(mat.$red-palette, 800);
 $my-secondary: mat.define-palette(mat.$gray-palette, 500);
 
+<<<<<<< HEAD
 $my-theme: mat.define-light-theme((
 
 color: (
@@ -24,5 +25,18 @@ color: (
       typography: mat.define-typography-config(),
       density: 0,
     ));
+=======
+$my-theme: mat.define-light-theme(
+  (
+    color: (
+      primary: $my-primary,
+      accent: $my-accent,
+      warn: $my-warn
+    ),
+    typography: mat.define-typography-config(),
+    density: 0,
+  )
+);
+>>>>>>> 3fbea51366215eb16cd71b821a270da8cd7c6be3
 
 @include mat.all-component-themes($my-theme);
