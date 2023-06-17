@@ -11,6 +11,6 @@ export class PlotActivityNextComponent implements AfterViewInit{
     const script = document.createElement('script');
     script.src = 'assets/dist/js/pages/plot-activity-next.js';
     document.body.appendChild(script);
-  }
+  }   
 
 }
