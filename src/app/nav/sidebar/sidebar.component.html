@@ -1,11 +1,15 @@
 <!-- Main Sidebar Container -->
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
   <!-- Brand Logo -->
-  <a class="brand-link">
-    <img [src]="imglogo" alt="BRR" class="brand-image img-circle elevation-3" style="opacity: .8">
-    <span class="brand-text font-weight-light">BRR</span>
-    <!-- <button class="btn close-btn px-1 py-0 text-white"><i class="fa-solid fa-xmark"></i></button> -->
-  </a>
+  <div class="header-box pd-3">
+    <button class="btn d-md-none d-block close-btn px-1 py-0 text-white" data-widget="pushmenu">
+      <i class="fa-solid fa-xmark" style="color: #ffffff;"></i></button>
+    <a class="brand-link">
+      <img [src]="imglogo" alt="BRR" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <span class="brand-text font-weight-light">BRR</span>
+    </a>
+  </div>
+
 
   <!-- Sidebar -->
   <div class="sidebar">
@@ -15,79 +19,83 @@
         <img [src]="imguser" class="img-circle elevation-2" alt="User Image">
       </div>
       <div class="info">
-        <a href="#" class="d-block">BRF</a>
+        <a class="d-block">BRF</a>
       </div>
 
-    </div>
-
-    <!-- SidebarSearch Form -->
-    <div class="form-inline">
-      <div class="input-group" data-widget="sidebar-search">
-        <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
-        <div class="input-group-append">
-          <button class="btn btn-sidebar">
-            <i class="fas fa-search fa-fw"></i>
-          </button>
-        </div>
-      </div>
     </div>
 
     <!-- Sidebar Menu -->
     <nav class="mt-2">
       <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+        <li class="nav-item">
+          <a routerLink="/" class="nav-link">
+            <i class="fa-solid fa-gauge fa-xl"></i>
+            <p>
+              Dashboard
+            </p>
+          </a>
+        </li>
         <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-        <li class="nav-item">
-        <a href="#" class="nav-link">
-          <i class="fa-solid fa-clipboard fa-xl"></i>
-            <p>
-              บันทึกกิจกรรม
-              <i class="right fas fa-angle-left"></i>
-            </p>
-        </a>
-        <ul class="nav nav-treeview">
-          <li class="nav-item">
-            <a routerLink="/กิจกรรมรายแปลง" class="nav-link active">
-              <i class="far fa-circle nav-icon"></i>
-              <p>กิจกรรมรายแปลง</p>
-            </a>
-          </li>
-        </ul>
-        </li>
-
-        <li class="nav-item">
+        <!-- <li class="nav-item text-decoration-none pv-2 d-block">
           <a href="#" class="nav-link">
-            <i class="fa-solid fa-chart-pie fa-xl"></i>
+            <i class="fa-solid fa-clipboard fa-xl"></i>
             <p>
-              สรุปกิจกรรมแปลง
+              Dashboard
               <i class="right fas fa-angle-left"></i>
             </p>
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a routerLink="/สรุปรายชาวไร่" class="nav-link">
+              <a routerLink="/Plot" class="nav-link active">
                 <i class="far fa-circle nav-icon"></i>
-                <p>รายชาวไร่</p>
+                <p>กิจกรรมรายแปลง</p>
+              </a>
+            </li>
+          </ul>
+        </li> -->
+        <li class="nav-item text-decoration-none pv-2 d-block">
+          <a href="#" class="nav-link">
+            <i class="fa-solid fa-clipboard fa-xl"></i>
+            <p>
+              บันทึกกิจกรรม
+              <i class="right fas fa-angle-left"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item">
+              <a routerLink="/Plot" class="nav-link active">
+                <i class="far fa-circle nav-icon"></i>
+                <p>กิจกรรมรายแปลง</p>
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li class="nav-item text-decoration-none pv-2 d-block">
+          <a href="#" class="nav-link">
+            <i class="fa-sharp fa-solid fa-database fa-xl"></i>
+            <p>
+              ข้อมูลแปลงอ้อย
+              <i class="right fas fa-angle-left"></i>
+            </p>
+          </a>
+          <ul class="nav nav-treeview">
+            <li class="nav-item">
+              <a routerLink="/Promotion money" class="nav-link active">
+                <i class="far fa-circle nav-icon"></i>
+                <p>ขอเงินส่งเสริม</p>
               </a>
             </li>
             <li class="nav-item">
-              <a routerLink="/สรุปรายแปลง" class="nav-link">
+              <a routerLink="/Withdraw factors of production" class="nav-link active">
                 <i class="far fa-circle nav-icon"></i>
-                <p>รายแปลง</p>
+                <p>ขอเบิกปัจจัยการผลิต</p>
               </a>
             </li>
           </ul>
         </li>
         <li class="nav-item">
-          <a routerLink="/ข้อมูลแปลงอ้อย" class="nav-link">
-            <i class="fa-sharp fa-solid fa-database fa-xl"></i>
-            <p>
-              ข้อมูลแปลงอ้อย
-            </p>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a routerLink="/จัดกลุ่มคิวอ้อย" class="nav-link">
+          <a routerLink="/SugarcaneCueGroups" class="nav-link">
             <i class="fa-sharp fa-solid fa-layer-group fa-xl"></i>
             <p>
               จัดกลุ่มคิวอ้อย
@@ -95,18 +103,21 @@
           </a>
         </li>
         <li class="nav-item">
-          <a routerLink="/แผนที่แปลงอ้อย" class="nav-link">
+          <a routerLink="/Map" class="nav-link">
             <i class="fa-solid fa-map-location-dot fa-xl"></i>
             <p>
               แผนที่แปลงอ้อย
             </p>
           </a>
         </li>
+
+        <hr class="h-color mx-2" style="background: white">
+
         <li class="nav-item">
-          <a routerLink="" class="nav-link">
+          <a routerLink="/login" class="nav-link">
             <i class="fa-solid fa-arrow-right-from-bracket fa-xl"></i>
             <p>
-              Log out
+              Login
             </p>
           </a>
         </li>

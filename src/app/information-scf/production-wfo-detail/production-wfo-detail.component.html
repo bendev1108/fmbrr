@@ -1,0 +1,52 @@
+<hr>
+  <div class="d-flex">
+    <div class="mr-auto p-2">
+      <div class="input-group input-group-sm mb-3">
+        <span class="input-group-text" id="inputGroup-sizing-default">เลขที่บัญชี</span>
+        <input type="text" class="form-control" aria-label="Sizing input" aria-describedby="inputGroup-sizing-default" placeholder="เลขที่บัญชี">
+        <button class="btn btn-outline-success" type="submit" >ค้นหา</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="table-responsive">
+        <table class="table table-hover">
+          <thead class="thead-dark" align="center">
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">เลขที่</th>
+              <th scope="col">วันที่</th>
+              <th scope="col">ชื่อ-สกุล</th>
+              <th scope="col">แปลง</th>
+              <th scope="col">รายการ</th>
+              <th scope="col">สต๊อก</th>
+              <th scope="col">ราคารวม</th>
+              <th scope="col">พิมพ์</th>
+              <th scope="col">การจัดการ</th>
+            </tr>
+          </thead>
+          <tbody id="DetailScq" align="center">
+            <tr>
+              <td scope="row">1</td>
+              <td>k[[[[[[[[[[[[[[[[[[[[[k</td>
+              <td>fff</td>
+              <td>ggg</td>
+              <td>ddd</td>
+              <td>loooooooooooooooooll</td>
+              <td>piiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiipp</td>
+              <td>fff</td>
+              <td><button class="btn fa-solid fa-print" style="color: #279680;"></button>
+              </td>
+              <td><button class="btn fa-solid fa-pen-to-square" onclick="showFormEdit(id)" style="color: #005eff;"></button>
+                <button class="btn fa-solid fa-trash" onclick="FormDelete(id)" style="color: #ff0000;"></button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <button mat-raised-button color="primary" routerLink="/SugarcaneCueGroups">ย้อนกลับ</button>
+    </div>
+  </div>
+

@@ -164,6 +164,7 @@
       $(window).trigger('resize')
     }
   })
+
   var $sidebar_fixed_container = $('<div />', { class: 'mb-1' }).append($sidebar_fixed_checkbox).append('<span>Fixed</span>')
   $container.append($sidebar_fixed_container)
 
@@ -315,6 +316,7 @@
       $('body').removeClass('layout-footer-fixed')
     }
   })
+  
   var $footer_fixed_container = $('<div />', { class: 'mb-4' }).append($footer_fixed_checkbox).append('<span>Fixed</span>')
   $container.append($footer_fixed_container)
 

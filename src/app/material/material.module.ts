@@ -1,4 +1,4 @@
-import { NgModule,CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
+import { NgModule,CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
 // Material Form Controls
 import { MatAutocompleteModule } from '@angular/material/autocomplete';
@@ -121,6 +121,6 @@ import { MatTableModule } from '@angular/material/table';
     MatSortModule,
     MatTableModule,
   ],
-  schemas: [CUSTOM_ELEMENTS_SCHEMA]
+  schemas: [CUSTOM_ELEMENTS_SCHEMA,NO_ERRORS_SCHEMA]
 })
 export class MaterialModule { }

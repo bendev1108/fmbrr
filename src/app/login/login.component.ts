@@ -7,6 +7,8 @@ import { AfterViewInit, Component } from '@angular/core';
 })
 export class LoginComponent implements AfterViewInit{
 
+  imglogo = "./assets/image/logo.png";
+
    //Integrate AdminLTM ChartJS
    ngAfterViewInit(): void {
     const script = document.createElement('script');
