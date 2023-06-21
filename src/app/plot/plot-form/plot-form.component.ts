@@ -1,14 +1,19 @@
 import { BrdsqlService } from './../../service/brdsql.service';
+<<<<<<< HEAD
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
+=======
+import { Component, OnInit } from '@angular/core';
+>>>>>>> 858dfcc29d4b6496759d5501306dedb6e92ad9ec
 
 @Component({
   selector: 'app-plot-form',
   templateUrl: './plot-form.component.html',
   styleUrls: ['./plot-form.component.scss']
 })
+<<<<<<< HEAD
 export class PlotFormComponent implements OnInit {
 
   alldata: any;
@@ -55,6 +60,29 @@ export class PlotFormComponent implements OnInit {
 
 
         //console.log('Data form server : ', data)
+=======
+export class PlotFormComponent implements OnInit{
+cpfarmerData?: any = [];
+
+
+  constructor(
+    private brdsql: BrdsqlService,
+  ) { }
+
+  ngOnInit(): void {
+    this.getCpdataFarmer()
+
+  }
+
+  // เรียกดูข้อมูลแปลงอ้อยตามปัการผลิตและบัญชีชาวไร่
+  async getCpdataFarmer() {
+    let year = "2324"
+    let fmcode = "0000148033"
+    await this.brdsql.getcpDataframer(year, fmcode).subscribe({
+      next: (res: any) => {
+        this.cpfarmerData = res.recordset
+        console.log('Data form server : ', res)
+>>>>>>> 858dfcc29d4b6496759d5501306dedb6e92ad9ec
       }, complete() {
         // ถ้าสำเร็จ ตั้องการทำอะไร ใส่ไว้ตรงนี้
       }, error(err) {
@@ -63,6 +91,7 @@ export class PlotFormComponent implements OnInit {
     })
 
   }
+<<<<<<< HEAD
   displayedColumns: string[] = ['intlandno', 'supzone', 'route', 'fmname', 'canetype', 'SUPNAME', 'icon'];
 
   applyFilter(event: Event){
@@ -72,4 +101,6 @@ export class PlotFormComponent implements OnInit {
       this.alldata.paginator.firstPage();
     }
   }
+=======
+>>>>>>> 858dfcc29d4b6496759d5501306dedb6e92ad9ec
 }

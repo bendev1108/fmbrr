@@ -1,14 +1,19 @@
+<<<<<<< HEAD
 import { Component, AfterViewInit, OnInit, ViewChild } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { BrdsqlService } from 'src/app/service/brdsql.service';
+=======
+import { Component, AfterViewInit } from '@angular/core';
+>>>>>>> 858dfcc29d4b6496759d5501306dedb6e92ad9ec
 
 @Component({
   selector: 'app-promotion-money',
   templateUrl: './promotion-money.component.html',
   styleUrls: ['./promotion-money.component.scss']
 })
+<<<<<<< HEAD
 export class PromotionMoneyComponent implements AfterViewInit,OnInit{
 
   alldata: any;
@@ -72,6 +77,9 @@ export class PromotionMoneyComponent implements AfterViewInit,OnInit{
       this.alldata.paginator.firstPage();
     }
   }
+=======
+export class PromotionMoneyComponent implements AfterViewInit{
+>>>>>>> 858dfcc29d4b6496759d5501306dedb6e92ad9ec
 
   ngAfterViewInit(): void {
     const script = document.createElement('script');

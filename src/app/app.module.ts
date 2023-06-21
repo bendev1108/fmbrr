@@ -23,8 +23,15 @@ import { LoginComponent } from './login/login.component';
 import { PlotDetailComponent } from './plot/plot-detail/plot-detail.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
 import { ScqDetailsComponent } from './sugarcane-cue-groups/scq-details/scq-details.component';
+<<<<<<< HEAD
 import { ScqFormsComponent } from './sugarcane-cue-groups/scq-forms/scq-forms.component';
 import { MapDetailComponent } from './map/map-detail/map-detail.component';
+=======
+<<<<<<< HEAD
+import { ScqFormsComponent } from './sugarcane-cue-groups/scq-forms/scq-forms.component';
+import { MapDetailComponent } from './map/map-detail/map-detail.component';
+import { HomeComponent } from './home/home.component';
+>>>>>>> 858dfcc29d4b6496759d5501306dedb6e92ad9ec
 import { PromotionMoneyComponent } from './information-scf/promotion-money/promotion-money.component';
 import { ProductionWfoComponent } from './information-scf/production-wfo/production-wfo.component';
 import { ProductionWfoFormComponent } from './information-scf/production-wfo-form/production-wfo-form.component';
@@ -32,6 +39,11 @@ import { ProductionWfoDetailComponent } from './information-scf/production-wfo-d
 import { PromotionMoneyFormComponent } from './information-scf/promotion-money-form/promotion-money-form.component';
 import { PromotionMoneyDetailComponent } from './information-scf/promotion-money-detail/promotion-money-detail.component';
 import { PlotFormComponent } from './plot/plot-form/plot-form.component';
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3fbea51366215eb16cd71b821a270da8cd7c6be3
+>>>>>>> 858dfcc29d4b6496759d5501306dedb6e92ad9ec
 
 @NgModule({
   declarations: [
@@ -52,8 +64,15 @@ import { PlotFormComponent } from './plot/plot-form/plot-form.component';
     PlotDetailComponent,
     PagenotfoundComponent,
     ScqDetailsComponent,
+<<<<<<< HEAD
     ScqFormsComponent,
     MapDetailComponent,
+=======
+<<<<<<< HEAD
+    ScqFormsComponent,
+    MapDetailComponent,
+    HomeComponent,
+>>>>>>> 858dfcc29d4b6496759d5501306dedb6e92ad9ec
     PromotionMoneyComponent,
     ProductionWfoComponent,
     ProductionWfoFormComponent,
@@ -61,6 +80,11 @@ import { PlotFormComponent } from './plot/plot-form/plot-form.component';
     PromotionMoneyFormComponent,
     PromotionMoneyDetailComponent,
     PlotFormComponent,
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 3fbea51366215eb16cd71b821a270da8cd7c6be3
+>>>>>>> 858dfcc29d4b6496759d5501306dedb6e92ad9ec
   ],
   imports: [
     BrowserModule,

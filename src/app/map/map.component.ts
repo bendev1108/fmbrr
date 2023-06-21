@@ -1,14 +1,19 @@
+<<<<<<< HEAD
 import { Component, AfterViewInit, OnInit, ViewChild } from '@angular/core';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { MatTableDataSource } from '@angular/material/table';
 import { BrdsqlService } from '../service/brdsql.service';
+=======
+import { Component, AfterViewInit, OnInit } from '@angular/core';
+>>>>>>> 858dfcc29d4b6496759d5501306dedb6e92ad9ec
 
 @Component({
   selector: 'app-map',
   templateUrl: './map.component.html',
   styleUrls: ['./map.component.scss']
 })
+<<<<<<< HEAD
 export class MapComponent implements  OnInit,AfterViewInit{
 
   alldata: any;
@@ -65,6 +70,13 @@ export class MapComponent implements  OnInit,AfterViewInit{
     script.src = 'assets/dist/js/pages/map.js';
     document.body.appendChild(script);
   }
+=======
+export class MapComponent implements  OnInit{
+
+ ngOnInit(): void {
+
+ }
+>>>>>>> 858dfcc29d4b6496759d5501306dedb6e92ad9ec
 
 
 

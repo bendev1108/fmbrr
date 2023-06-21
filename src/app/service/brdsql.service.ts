@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 import { Recordset } from 'src/app/service/brdsql.module';
+=======
+>>>>>>> 858dfcc29d4b6496759d5501306dedb6e92ad9ec
 
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
@@ -14,6 +17,7 @@ export class BrdsqlService {
 
   // api ของเรา สำหรับการเรียกดูข้อมูลต่างๆ ในฐานข้อมูล SQL Server ชองบริษัทฯ
   baseSelectUrl = "https://asia-southeast2-brr-farmluck.cloudfunctions.net/dbcps/select_s_f_w?"
+<<<<<<< HEAD
   // s=*&f=[CPS6263].[dbo].[v_cp_data]&w=year='2324' and fmcode='0000149888' order by intlandno
   // yearsUrl = "https://asia-southeast2-brr-farmluck.cloudfunctions.net/dbcps/select_s_f_w?s=*&f=[CPS6263].[dbo].[yearID]&w=1=1 order by yearTh"
   // s=*&f=[CPS6263].[dbo].[yearID]&w=1=1 order by yearTh
@@ -27,6 +31,12 @@ getYears(){
 }
 
   // เรียกดูข้อมูลแปลงอ้อยตามปีการผลิตและบัญชีชาวไร่
+=======
+
+  // s=*&f=[CPS6263].[dbo].[v_cp_data]&w=year='2324' and fmcode='0000149888' order by intlandno
+
+  // เรียกดูข้อมูลแปลงอ้อยตามปัการผลิตและบัญชีชาวไร่
+>>>>>>> 858dfcc29d4b6496759d5501306dedb6e92ad9ec
   getcpDataframer(year:string ,fmcode: string) {
     let url = this.baseSelectUrl
     + "s=*&f=[CPS6263].[dbo].[v_cp_data]&w=year='"+year+"' and fmcode='"+fmcode+"' order by intlandno"

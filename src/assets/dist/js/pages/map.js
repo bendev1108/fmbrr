@@ -37,6 +37,7 @@ function showCreateMap() {
       '<form class="was-validated">' +
       '<div class="input-group mb-3">' +
       '<span class="input-group-text" id="inputGroup-sizing-default">เลขโควตา</span>' +
+<<<<<<< HEAD
       '<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" required>' +
       '</div>' +
       '<div class="input-group mb-3">' +
@@ -62,6 +63,33 @@ function showCreateMap() {
       ' <div class="input-group">' +
       ' <span class="input-group-text">ตำแหน่งที่ตั้ง</span>' +
       '<input type="text" aria-label="lat" class="form-control" placeholder="ฝังลิงค์" required>' +
+=======
+      '<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">' +
+      '</div>' +
+      '<div class="input-group mb-3">' +
+      '<span class="input-group-text" id="inputGroup-sizing-default">ชื่อชาวไร่</span>' +
+      '<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">' +
+      '</div>' +
+      '<div class="input-group mb-3">' +
+      '<span class="input-group-text" id="inputGroup-sizing-default">หมายเลขแปลง</span>' +
+      '<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">' +
+      '</div>' +
+      '<div class="input-group mb-3">' +
+      '<span class="input-group-text" id="inputGroup-sizing-default">นอส.รับผิดชอบ</span>' +
+      '<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">' +
+      '</div>' +
+      '<div class="input-group mb-3">' +
+      '<span class="input-group-text" id="inputGroup-sizing-default">โซน</span>' +
+      '<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">' +
+      '</div>' +
+      '<div class="input-group mb-3">' +
+      '<span class="input-group-text" id="inputGroup-sizing-default">ส่วน</span>' +
+      '<input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">' +
+      '</div>' +
+      ' <div class="input-group">' +
+      ' <span class="input-group-text">ละติจูด & ลองติจูด</span>' +
+      '<input type="text" aria-label="lat" class="form-control" placeholder="ละติจูด"><input type="text" aria-label="long" class="form-control" placeholder="ลองติจูด">' +
+>>>>>>> 858dfcc29d4b6496759d5501306dedb6e92ad9ec
       '</div>' +
       '</form>',
     focusConfirm: false,

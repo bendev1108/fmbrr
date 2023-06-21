@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   font-family: 'Bai Jamjuree', sans-serif;
   font-family: 'Chakra Petch', sans-serif;
@@ -30,4 +31,25 @@
 }
 a{
   margin-right: 1rem;
+=======
+.d-flex{
+  margin-bottom: 1rem;
+}
+/*
+ * Always set the map height explicitly to define the size of the div element
+ * that contains the map.
+ */
+ #map {
+  height: 100%;
+}
+
+/*
+ * Optional: Makes the sample page fill the window.
+ */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+>>>>>>> 858dfcc29d4b6496759d5501306dedb6e92ad9ec
 }

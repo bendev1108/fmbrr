@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
@@ -5,12 +6,21 @@ import { MatSort } from '@angular/material/sort';
 import { BrdsqlService } from 'src/app/service/brdsql.service';
 import { Recordset } from 'src/app/service/brdsql.module';
 
+=======
+<<<<<<< HEAD
+import {Component} from '@angular/core';
+
+=======
+import { Component } from '@angular/core';
+>>>>>>> 3fbea51366215eb16cd71b821a270da8cd7c6be3
+>>>>>>> 858dfcc29d4b6496759d5501306dedb6e92ad9ec
 
 @Component({
   selector: 'app-scq-details',
   templateUrl: './scq-details.component.html',
   styleUrls: ['./scq-details.component.scss']
 })
+<<<<<<< HEAD
 export class ScqDetailsComponent implements OnInit {
 
   alldata: any;
@@ -74,7 +84,20 @@ export class ScqDetailsComponent implements OnInit {
       this.alldata.paginator.firstPage();
     }
   }
+=======
+<<<<<<< HEAD
+export class ScqDetailsComponent{
+
+>>>>>>> 858dfcc29d4b6496759d5501306dedb6e92ad9ec
 
 
 }
 
+<<<<<<< HEAD
+=======
+=======
+export class ScqDetailsComponent {
+
+}
+>>>>>>> 3fbea51366215eb16cd71b821a270da8cd7c6be3
+>>>>>>> 858dfcc29d4b6496759d5501306dedb6e92ad9ec

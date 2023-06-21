@@ -1,14 +1,19 @@
+<<<<<<< HEAD
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import { BrdsqlService } from 'src/app/service/brdsql.service';
+=======
+import { Component } from '@angular/core';
+>>>>>>> 858dfcc29d4b6496759d5501306dedb6e92ad9ec
 
 @Component({
   selector: 'app-production-wfo-detail',
   templateUrl: './production-wfo-detail.component.html',
   styleUrls: ['./production-wfo-detail.component.scss']
 })
+<<<<<<< HEAD
 export class ProductionWfoDetailComponent implements OnInit{
 
   alldata: any;
@@ -72,5 +77,8 @@ export class ProductionWfoDetailComponent implements OnInit{
       this.alldata.paginator.firstPage();
     }
   }
+=======
+export class ProductionWfoDetailComponent {
+>>>>>>> 858dfcc29d4b6496759d5501306dedb6e92ad9ec
 
 }
