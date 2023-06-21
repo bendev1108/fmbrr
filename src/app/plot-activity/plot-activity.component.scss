@@ -1,47 +1,26 @@
-.content-wrapper {
-  background-color: white;
-  margin-bottom: 1rem;
-}
-
 p {
   font-size: 20px;
   margin-bottom: 1rem;
 }
-
-// .example-full {
-//   width: 300px;
-//   margin-left: 5rem;
-// }
-
 .example-full-width {
-  width: 400px;
-  margin-left: 1rem;
+  width: 19rem;
+  margin-top: 1rem;
   margin-right: 1rem;
 }
-
-#textarea {
-  width: 400px;
-  margin-left: 1rem;
-}
-
-.input-group {
-  margin-bottom: 1rem;
-  margin-left: 1rem;
-  width: 300px;
-
-}
-
-#inputGroupFile {
-  width: fit-content;
-  height: fit-content;
-}
-
 button {
   margin-left: 1rem;
   margin-bottom: 1rem;
   width: fit-content;
 }
+.span {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+}
+.date{
+  width: 10rem;
+}
+#label{
+  font-size: 12px;
+}
 
-// .example-form {
-//   background-color: aquamarine;
-// }
